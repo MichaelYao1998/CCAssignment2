@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>Victoria</region>
+            <office>VICRO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDV10750</identifier>
+        <issue-time-utc>2018-09-24T06:15:00Z</issue-time-utc>
+        <issue-time-local tz="EST">2018-09-24T16:15:00+10:00</issue-time-local>
+        <sent-time>2018-09-24T06:15:31Z</sent-time>
+        <expiry-time>2018-09-25T06:15:00Z</expiry-time>
+        <validity-bgn-time-local tz="EST">2018-09-24T17:00:00+10:00</validity-bgn-time-local>
+        <validity-end-time-local tz="EST">2018-09-28T23:59:59+10:00</validity-end-time-local>
+        <next-routine-issue-time-utc>2018-09-24T19:40:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="EST">2018-09-25T05:40:00+10:00</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="VIC_FA001" description="Victoria" type="region"/>
+        <area aac="VIC_PW001" description="Mallee" type="public-district" parent-aac="VIC_FA001">
+            <forecast-period index="0" start-time-local="2018-09-24T17:00:00+10:00" end-time-local="2018-09-25T00:00:00+10:00" start-time-utc="2018-09-24T07:00:00Z" end-time-utc="2018-09-24T14:00:00Z">
+                <text type="forecast">Clear. Winds southerly 15 to 20 km/h.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2018-09-25T00:00:00+10:00" end-time-local="2018-09-26T00:00:00+10:00" start-time-utc="2018-09-24T14:00:00Z" end-time-utc="2018-09-25T14:00:00Z">
+                <text type="forecast">Sunny. Areas of frost in the south in the early morning. Winds south to southeasterly 15 to 20 km/h becoming light in the morning then becoming south to southeasterly 15 to 20 km/h in the late evening. Overnight temperatures falling to around 2 with daytime temperatures reaching the low 20s.</text>
+                <text type="fire_danger">Low-Moderate</text>
+                <text type="uv_alert">Sun protection 9:30am to 3:20pm, UV Index predicted to reach 6 [High]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2018-09-26T00:00:00+10:00" end-time-local="2018-09-27T00:00:00+10:00" start-time-utc="2018-09-25T14:00:00Z" end-time-utc="2018-09-26T14:00:00Z">
+                <text type="forecast">Mostly sunny. Areas of frost in the southeast in the early morning. Light winds. Overnight temperatures falling to between 1 and 4 with daytime temperatures reaching the low to mid 20s.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2018-09-27T00:00:00+10:00" end-time-local="2018-09-28T00:00:00+10:00" start-time-utc="2018-09-26T14:00:00Z" end-time-utc="2018-09-27T14:00:00Z">
+                <text type="forecast">Partly cloudy. Slight (20%) chance of a shower in the afternoon and evening. Light winds becoming west to southwesterly 20 to 30 km/h during the morning then becoming light during the evening. Overnight temperatures falling to between 7 and 10 with daytime temperatures reaching the mid to high 20s.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2018-09-28T00:00:00+10:00" end-time-local="2018-09-29T00:00:00+10:00" start-time-utc="2018-09-27T14:00:00Z" end-time-utc="2018-09-28T14:00:00Z">
+                <text type="forecast">Cloudy. Medium (40%) chance of showers. Light winds becoming west to southwesterly 20 to 30 km/h during the morning. Overnight temperatures falling to around 5 with daytime temperatures reaching around 19.</text>
+            </forecast-period>
+        </area>
+        <area aac="VIC_PW002" description="Wimmera" type="public-district" parent-aac="VIC_FA001">
+            <forecast-period index="0" start-time-local="2018-09-24T17:00:00+10:00" end-time-local="2018-09-25T00:00:00+10:00" start-time-utc="2018-09-24T07:00:00Z" end-time-utc="2018-09-24T14:00:00Z">
+                <text type="forecast">Clear. Winds south to southeasterly 15 to 25 km/h.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2018-09-25T00:00:00+10:00" end-time-local="2018-09-26T00:00:00+10:00" start-time-utc="2018-09-24T14:00:00Z" end-time-utc="2018-09-25T14:00:00Z">
+                <text type="forecast">Mostly sunny. Areas of frost in the early morning. Winds southeasterly 15 to 20 km/h becoming light before dawn then becoming south to southeasterly 15 to 20 km/h in the late afternoon. Overnight temperatures falling to around 2 with daytime temperatures reaching between 16 and 20.</text>
+                <text type="fire_danger">Low-Moderate</text>
+                <text type="uv_alert">Sun protection 9:40am to 3:00pm, UV Index predicted to reach 5 [Moderate]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2018-09-26T00:00:00+10:00" end-time-local="2018-09-27T00:00:00+10:00" start-time-utc="2018-09-25T14:00:00Z" end-time-utc="2018-09-26T14:00:00Z">
+                <text type="forecast">Mostly sunny. Slight (20%) chance of a shower in the southwest at night. Areas of frost in the early morning. Light winds becoming northeasterly 15 to 20 km/h in the morning then turning north to northwesterly in the late morning. Overnight temperatures falling to around 2 with daytime temperatures reaching between 19 and 22.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2018-09-27T00:00:00+10:00" end-time-local="2018-09-28T00:00:00+10:00" start-time-utc="2018-09-26T14:00:00Z" end-time-utc="2018-09-27T14:00:00Z">
+                <text type="forecast">Partly cloudy. Medium (40%) chance of showers in the afternoon and evening. Light winds becoming westerly 20 to 30 km/h during the morning then becoming light during the evening. Overnight temperatures falling to around 7 with daytime temperatures reaching between 17 and 23.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2018-09-28T00:00:00+10:00" end-time-local="2018-09-29T00:00:00+10:00" start-time-utc="2018-09-27T14:00:00Z" end-time-utc="2018-09-28T14:00:00Z">
+                <text type="forecast">Cloudy. Medium (60%) chance of showers, most likely in the afternoon and evening. Winds westerly 15 to 20 km/h increasing to 20 to 30 km/h during the day then turning southwesterly 15 to 20 km/h during the afternoon. Overnight temperatures falling to around 6 with daytime temperatures reaching between 14 and 17.</text>
+            </forecast-period>
+        </area>
+        <area aac="VIC_PW003" description="Northern Country" type="public-district" parent-aac="VIC_FA001">
+            <forecast-period index="0" start-time-local="2018-09-24T17:00:00+10:00" end-time-local="2018-09-25T00:00:00+10:00" start-time-utc="2018-09-24T07:00:00Z" end-time-utc="2018-09-24T14:00:00Z">
+                <text type="forecast">Clear. Light winds becoming south to southeasterly 15 to 20 km/h in the evening.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2018-09-25T00:00:00+10:00" end-time-local="2018-09-26T00:00:00+10:00" start-time-utc="2018-09-24T14:00:00Z" end-time-utc="2018-09-25T14:00:00Z">
+                <text type="forecast">Partly cloudy. Areas of frost in the early morning. Light winds becoming south to southeasterly 15 to 20 km/h in the evening then becoming light in the late evening. Overnight temperatures falling to around 2 with daytime temperatures reaching between 17 and 21.</text>
+                <text type="fire_danger">Low-Moderate</text>
+                <text type="uv_alert">Sun protection 9:30am to 2:50pm, UV Index predicted to reach 5 [Moderate]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2018-09-26T00:00:00+10:00" end-time-local="2018-09-27T00:00:00+10:00" start-time-utc="2018-09-25T14:00:00Z" end-time-utc="2018-09-26T14:00:00Z">
+                <text type="forecast">Partly cloudy. Areas of frost in the early morning. Light winds. Overnight temperatures falling to around 2 with daytime temperatures reaching the low 20s.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2018-09-27T00:00:00+10:00" end-time-local="2018-09-28T00:00:00+10:00" start-time-utc="2018-09-26T14:00:00Z" end-time-utc="2018-09-27T14:00:00Z">
+                <text type="forecast">Partly cloudy. Slight (20%) chance of a shower. Winds north to northeasterly 15 to 20 km/h shifting westerly 15 to 25 km/h during the day. Overnight temperatures falling to around 7 with daytime temperatures reaching the mid to high 20s.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2018-09-28T00:00:00+10:00" end-time-local="2018-09-29T00:00:00+10:00" start-time-utc="2018-09-27T14:00:00Z" end-time-utc="2018-09-28T14:00:00Z">
+                <text type="forecast">Cloudy. Medium (40%) chance of showers, most likely in the evening. Winds westerly 15 to 20 km/h increasing to 15 to 25 km/h during the day then turning southwesterly 15 to 20 km/h during the evening. Overnight temperatures falling to around 5 with daytime temperatures reaching around 18.</text>
+            </forecast-period>
+        </area>
+        <area aac="VIC_PW008" description="North Central" type="public-district" parent-aac="VIC_FA001">
+            <forecast-period index="0" start-time-local="2018-09-24T17:00:00+10:00" end-time-local="2018-09-25T00:00:00+10:00" start-time-utc="2018-09-24T07:00:00Z" end-time-utc="2018-09-24T14:00:00Z">
+                <text type="forecast">Clear. Winds southeast to southwesterly 20 to 30 km/h.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2018-09-25T00:00:00+10:00" end-time-local="2018-09-26T00:00:00+10:00" start-time-utc="2018-09-24T14:00:00Z" end-time-utc="2018-09-25T14:00:00Z">
+                <text type="forecast">Partly cloudy. Areas of frost and patchy fog in the early morning. Winds southeast to southwesterly 15 to 25 km/h becoming light early in the morning then becoming south to southeasterly 15 to 20 km/h in the late afternoon. Overnight temperatures falling to between 2 and 5 with daytime temperatures reaching between 13 and 17.</text>
+                <text type="fire_danger">Low-Moderate</text>
+                <text type="uv_alert">Sun protection 9:40am to 2:40pm, UV Index predicted to reach 5 [Moderate]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2018-09-26T00:00:00+10:00" end-time-local="2018-09-27T00:00:00+10:00" start-time-utc="2018-09-25T14:00:00Z" end-time-utc="2018-09-26T14:00:00Z">
+                <text type="forecast">Mostly sunny. Areas of morning frost. Winds south to southeasterly 15 to 20 km/h becoming light before dawn then becoming north to northeasterly 15 to 20 km/h in the middle of the day. Overnight temperatures falling to around 2 with daytime temperatures reaching between 16 and 20.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2018-09-27T00:00:00+10:00" end-time-local="2018-09-28T00:00:00+10:00" start-time-utc="2018-09-26T14:00:00Z" end-time-utc="2018-09-27T14:00:00Z">
+                <text type="forecast">Partly cloudy. Slight (30%) chance of a shower in the evening. Winds north to northeasterly 15 to 25 km/h shifting westerly 15 to 20 km/h during the day. Overnight temperatures falling to around 7 with daytime temperatures reaching the low to mid 20s.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2018-09-28T00:00:00+10:00" end-time-local="2018-09-29T00:00:00+10:00" start-time-utc="2018-09-27T14:00:00Z" end-time-utc="2018-09-28T14:00:00Z">
+                <text type="forecast">Cloudy. Medium (60%) chance of showers, most likely in the afternoon and evening. Snow possible above 900 metres. Light winds becoming westerly 15 to 25 km/h during the morning then becoming light during the evening. Overnight temperatures falling to around 5 with daytime temperatures reaching between 13 and 17.</text>
+            </forecast-period>
+        </area>
+        <area aac="VIC_PW004" description="North East" type="public-district" parent-aac="VIC_FA001">
+            <forecast-period index="0" start-time-local="2018-09-24T17:00:00+10:00" end-time-local="2018-09-25T00:00:00+10:00" start-time-utc="2018-09-24T07:00:00Z" end-time-utc="2018-09-24T14:00:00Z">
+                <text type="forecast">Clear. Light winds becoming southeast to southwesterly 15 to 20 km/h in the late evening.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2018-09-25T00:00:00+10:00" end-time-local="2018-09-26T00:00:00+10:00" start-time-utc="2018-09-24T14:00:00Z" end-time-utc="2018-09-25T14:00:00Z">
+                <text type="forecast">Partly cloudy. Patchy fog in the early morning. Areas of morning frost. Slight (20%) chance of a shower in the far south during the afternoon. Snow possible above 1400 metres. Light winds. Overnight temperatures falling to between zero and 4 with daytime temperatures reaching between 10 and 19.</text>
+                <text type="fire_danger">Low-Moderate</text>
+                <text type="uv_alert">Sun protection 9:30am to 2:40pm, UV Index predicted to reach 5 [Moderate]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2018-09-26T00:00:00+10:00" end-time-local="2018-09-27T00:00:00+10:00" start-time-utc="2018-09-25T14:00:00Z" end-time-utc="2018-09-26T14:00:00Z">
+                <text type="forecast">Mostly sunny. Light winds. Overnight temperatures falling to between 2 and 5 with daytime temperatures reaching between 14 and 21.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2018-09-27T00:00:00+10:00" end-time-local="2018-09-28T00:00:00+10:00" start-time-utc="2018-09-26T14:00:00Z" end-time-utc="2018-09-27T14:00:00Z">
+                <text type="forecast">Partly cloudy. Slight (20%) chance of a shower. Winds northeast to southeasterly 15 to 20 km/h tending northwest to northeasterly 15 to 25 km/h during the morning then tending northwest to southwesterly 15 to 20 km/h during the afternoon. Overnight temperatures falling to between 3 and 6 with daytime temperatures reaching between 17 and 25.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2018-09-28T00:00:00+10:00" end-time-local="2018-09-29T00:00:00+10:00" start-time-utc="2018-09-27T14:00:00Z" end-time-utc="2018-09-28T14:00:00Z">
+                <text type="forecast">Cloudy. Medium (60%) chance of showers, most likely in the afternoon and evening. Snow possible above 900 metres. Light winds becoming west to northwesterly 15 to 20 km/h during the morning then becoming light during the afternoon. Overnight temperatures falling to around 5 with daytime temperatures reaching between 12 and 19.</text>
+            </forecast-period>
+        </area>
+        <area aac="VIC_PW009" description="South West" type="public-district" parent-aac="VIC_FA001">
+            <forecast-period index="0" start-time-local="2018-09-24T17:00:00+10:00" end-time-local="2018-09-25T00:00:00+10:00" start-time-utc="2018-09-24T07:00:00Z" end-time-utc="2018-09-24T14:00:00Z">
+                <text type="forecast">Partly cloudy. Winds south to southeasterly 15 to 25 km/h.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2018-09-25T00:00:00+10:00" end-time-local="2018-09-26T00:00:00+10:00" start-time-utc="2018-09-24T14:00:00Z" end-time-utc="2018-09-25T14:00:00Z">
+                <text type="forecast">Cloudy. Areas of frost in the north in the early morning. Slight (20%) chance of morning drizzle near the Otways. Winds southeasterly 15 to 20 km/h becoming light in the late evening. Overnight temperatures falling to between 2 and 5 with daytime temperatures reaching between 13 and 16.</text>
+                <text type="fire_danger">Low-Moderate</text>
+                <text type="uv_alert">Sun protection 9:50am to 3:00pm, UV Index predicted to reach 5 [Moderate]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2018-09-26T00:00:00+10:00" end-time-local="2018-09-27T00:00:00+10:00" start-time-utc="2018-09-25T14:00:00Z" end-time-utc="2018-09-26T14:00:00Z">
+                <text type="forecast">Partly cloudy. Areas of frost in the north in the early morning. Slight (20%) chance of a shower in the west in the late afternoon and evening. Light winds becoming northerly 15 to 20 km/h in the morning. Overnight temperatures falling to around 3 with daytime temperatures reaching around 18.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2018-09-27T00:00:00+10:00" end-time-local="2018-09-28T00:00:00+10:00" start-time-utc="2018-09-26T14:00:00Z" end-time-utc="2018-09-27T14:00:00Z">
+                <text type="forecast">Partly cloudy. Medium (60%) chance of showers in the afternoon and evening. Winds northerly 15 to 20 km/h turning westerly 15 to 25 km/h during the morning. Overnight temperatures falling to between 6 and 9 with daytime temperatures reaching between 16 and 20.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2018-09-28T00:00:00+10:00" end-time-local="2018-09-29T00:00:00+10:00" start-time-utc="2018-09-27T14:00:00Z" end-time-utc="2018-09-28T14:00:00Z">
+                <text type="forecast">Cloudy. High (80%) chance of showers, most likely in the afternoon and evening. Snow falling above 800 metres. The chance of a thunderstorm in the afternoon and evening, with possible hail in the south. Winds west to northwesterly 15 to 20 km/h tending west to southwesterly during the day. Overnight temperatures falling to around 5 with daytime temperatures reaching around 13.</text>
+            </forecast-period>
+        </area>
+        <area aac="VIC_PW007" description="Central" type="public-district" parent-aac="VIC_FA001">
+            <forecast-period index="0" start-time-local="2018-09-24T17:00:00+10:00" end-time-local="2018-09-25T00:00:00+10:00" start-time-utc="2018-09-24T07:00:00Z" end-time-utc="2018-09-24T14:00:00Z">
+                <text type="forecast">Partly cloudy. Winds south to southeasterly 20 to 30 km/h.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2018-09-25T00:00:00+10:00" end-time-local="2018-09-26T00:00:00+10:00" start-time-utc="2018-09-24T14:00:00Z" end-time-utc="2018-09-25T14:00:00Z">
+                <text type="forecast">Partly cloudy. Areas of morning frost near the Yarra Valley. Slight (20%) chance of drizzle in the west in the morning. Winds south to southeasterly 15 to 25 km/h tending east to southeasterly 15 to 20 km/h in the evening. Overnight temperatures falling to between 3 and 6 with daytime temperatures reaching between 11 and 15.</text>
+                <text type="fire_danger">Low-Moderate</text>
+                <text type="uv_alert">Sun protection 9:40am to 2:50pm, UV Index predicted to reach 5 [Moderate]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2018-09-26T00:00:00+10:00" end-time-local="2018-09-27T00:00:00+10:00" start-time-utc="2018-09-25T14:00:00Z" end-time-utc="2018-09-26T14:00:00Z">
+                <text type="forecast">Mostly sunny. Areas of morning frost about the ranges. Winds east to southeasterly 15 to 20 km/h tending east to northeasterly early in the morning then tending northwest to northeasterly in the middle of the day. Overnight temperatures falling to between 1 and 5 with daytime temperatures reaching between 16 and 19.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2018-09-27T00:00:00+10:00" end-time-local="2018-09-28T00:00:00+10:00" start-time-utc="2018-09-26T14:00:00Z" end-time-utc="2018-09-27T14:00:00Z">
+                <text type="forecast">Partly cloudy. Slight (30%) chance of a shower in the afternoon and evening. Winds north to northeasterly 15 to 25 km/h increasing to 30 km/h before shifting westerly 15 to 25 km/h during the morning. Overnight temperatures falling to around 8 with daytime temperatures reaching between 19 and 23.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2018-09-28T00:00:00+10:00" end-time-local="2018-09-29T00:00:00+10:00" start-time-utc="2018-09-27T14:00:00Z" end-time-utc="2018-09-28T14:00:00Z">
+                <text type="forecast">Cloudy. High (70%) chance of showers, most likely in the afternoon and evening. Snow falling above 800 metres. The chance of a thunderstorm in the south in the evening with possible hail. Winds west to northwesterly 15 to 25 km/h tending west to southwesterly 15 to 20 km/h during the afternoon then becoming light during the evening. Overnight temperatures falling to between 4 and 7 with daytime temperatures reaching between 12 and 16.</text>
+            </forecast-period>
+        </area>
+        <area aac="VIC_PW006" description="West and South Gippsland" type="public-district" parent-aac="VIC_FA001">
+            <forecast-period index="0" start-time-local="2018-09-24T17:00:00+10:00" end-time-local="2018-09-25T00:00:00+10:00" start-time-utc="2018-09-24T07:00:00Z" end-time-utc="2018-09-24T14:00:00Z">
+                <text type="forecast">Partly cloudy. Slight (20%) chance of a light shower near Wilsons Promontory. Winds easterly 15 to 20 km/h becoming light in the evening.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2018-09-25T00:00:00+10:00" end-time-local="2018-09-26T00:00:00+10:00" start-time-utc="2018-09-24T14:00:00Z" end-time-utc="2018-09-25T14:00:00Z">
+                <text type="forecast">Cloudy. Areas of frost in the early morning. Patchy fog in the early morning. Slight (20%) chance of a shower about the ranges during the afternoon. Snow possible above 1400 metres. Light winds. Overnight temperatures falling to between 1 and 5 with daytime temperatures reaching between 10 and 15.</text>
+                <text type="fire_danger">Low-Moderate</text>
+                <text type="uv_alert">Sun protection 9:40am to 2:20pm, UV Index predicted to reach 5 [Moderate]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2018-09-26T00:00:00+10:00" end-time-local="2018-09-27T00:00:00+10:00" start-time-utc="2018-09-25T14:00:00Z" end-time-utc="2018-09-26T14:00:00Z">
+                <text type="forecast">Mostly sunny. Areas of frost in the south in the early morning. Light winds becoming east to northeasterly 15 to 25 km/h early in the morning. Overnight temperatures falling to between 2 and 5 with daytime temperatures reaching between 14 and 18.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2018-09-27T00:00:00+10:00" end-time-local="2018-09-28T00:00:00+10:00" start-time-utc="2018-09-26T14:00:00Z" end-time-utc="2018-09-27T14:00:00Z">
+                <text type="forecast">Partly cloudy. Slight (30%) chance of a shower in the evening. Light winds becoming north to northwesterly 15 to 25 km/h during the morning then tending northwest to southwesterly during the afternoon. Overnight temperatures falling to between 3 and 7 with daytime temperatures reaching between 18 and 25.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2018-09-28T00:00:00+10:00" end-time-local="2018-09-29T00:00:00+10:00" start-time-utc="2018-09-27T14:00:00Z" end-time-utc="2018-09-28T14:00:00Z">
+                <text type="forecast">Cloudy. High (70%) chance of showers, most likely in the afternoon and evening. Snow falling above 900 metres. The chance of a thunderstorm in the southwest in the evening with possible hail. Winds west to northwesterly 15 to 25 km/h tending west to southwesterly during the afternoon then becoming light during the evening. Overnight temperatures falling to between 4 and 7 with daytime temperatures reaching between 12 and 19.</text>
+            </forecast-period>
+        </area>
+        <area aac="VIC_PW005" description="East Gippsland" type="public-district" parent-aac="VIC_FA001">
+            <forecast-period index="0" start-time-local="2018-09-24T17:00:00+10:00" end-time-local="2018-09-25T00:00:00+10:00" start-time-utc="2018-09-24T07:00:00Z" end-time-utc="2018-09-24T14:00:00Z">
+                <text type="forecast">Mostly clear. Slight (20%) chance of a light shower near the coast. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2018-09-25T00:00:00+10:00" end-time-local="2018-09-26T00:00:00+10:00" start-time-utc="2018-09-24T14:00:00Z" end-time-utc="2018-09-25T14:00:00Z">
+                <text type="forecast">Cloudy. Areas of morning frost about the ranges. Slight (30%) chance of a shower in the afternoon and evening. Snow possible above 1400 metres. Light winds becoming south to southeasterly 15 to 20 km/h in the middle of the day then becoming light in the late afternoon. Overnight temperatures falling to between minus 1 and 5 above zero with daytime temperatures reaching between 10 and 16.</text>
+                <text type="fire_danger">Low-Moderate</text>
+                <text type="uv_alert">Sun protection 9:40am to 2:20pm, UV Index predicted to reach 4 [Moderate]</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2018-09-26T00:00:00+10:00" end-time-local="2018-09-27T00:00:00+10:00" start-time-utc="2018-09-25T14:00:00Z" end-time-utc="2018-09-26T14:00:00Z">
+                <text type="forecast">Partly cloudy. Patchy fog in the early morning. Slight (20%) chance of a shower in the far east in the early morning. Light winds becoming northeast to southeasterly 15 to 20 km/h in the late afternoon then tending northwest to northeasterly in the evening. Overnight temperatures falling to between 3 and 8 with daytime temperatures reaching between 13 and 18.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2018-09-27T00:00:00+10:00" end-time-local="2018-09-28T00:00:00+10:00" start-time-utc="2018-09-26T14:00:00Z" end-time-utc="2018-09-27T14:00:00Z">
+                <text type="forecast">Partly cloudy. Slight (20%) chance of a shower. Winds northerly 15 to 20 km/h tending northwesterly 15 to 25 km/h during the day then becoming light during the evening. Overnight temperatures falling to between 2 and 8 with daytime temperatures reaching between 18 and 25.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2018-09-28T00:00:00+10:00" end-time-local="2018-09-29T00:00:00+10:00" start-time-utc="2018-09-27T14:00:00Z" end-time-utc="2018-09-28T14:00:00Z">
+                <text type="forecast">Cloudy. High (70%) chance of showers, most likely in the afternoon and evening. Snow falling above 1100 metres. Winds northwest to southwesterly 15 to 25 km/h tending southeast to southwesterly 15 to 20 km/h during the afternoon then becoming light during the evening. Overnight temperatures falling to between 4 and 10 with daytime temperatures reaching between 14 and 19.</text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>

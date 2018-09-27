@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product version="1.7" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.bom.gov.au/schema/v1.7/product.xsd">
+    <amoc>
+        <source>
+            <sender>Australian Government Bureau of Meteorology</sender>
+            <region>Victoria</region>
+            <office>VICRO</office>
+            <copyright>http://www.bom.gov.au/other/copyright.shtml</copyright>
+            <disclaimer>http://www.bom.gov.au/other/disclaimer.shtml</disclaimer>
+        </source>
+        <identifier>IDV10751</identifier>
+        <issue-time-utc>2018-09-26T19:05:00Z</issue-time-utc>
+        <issue-time-local tz="EST">2018-09-27T05:05:00+10:00</issue-time-local>
+        <sent-time>2018-09-26T19:05:04Z</sent-time>
+        <expiry-time>2018-09-27T19:05:00Z</expiry-time>
+        <validity-bgn-time-local tz="EST">2018-09-27T00:00:00+10:00</validity-bgn-time-local>
+        <validity-end-time-local tz="EST">2018-10-03T23:59:59+10:00</validity-end-time-local>
+        <next-routine-issue-time-utc>2018-09-27T06:20:00Z</next-routine-issue-time-utc>
+        <next-routine-issue-time-local tz="EST">2018-09-27T16:20:00+10:00</next-routine-issue-time-local>
+        <status>O</status>
+        <service>WSP</service>
+        <product-type>F</product-type>
+        <phase>NEW</phase>
+    </amoc>
+    <forecast>
+        <area aac="VIC_FA001" description="Victoria" type="region"/>
+        <area aac="VIC_ME001" description="Melbourne" type="metropolitan" parent-aac="VIC_FA001">
+            <forecast-period index="0" start-time-local="2018-09-27T00:00:00+10:00" end-time-local="2018-09-28T00:00:00+10:00" start-time-utc="2018-09-26T14:00:00Z" end-time-utc="2018-09-27T14:00:00Z">
+                <text type="forecast">Sunny. Slight (20%) chance of a light shower later tonight. Winds northerly 25 to 40 km/h shifting cooler southerly 20 to 30 km/h in the late afternoon then becoming light in the evening.</text>
+                <text type="fire_danger">High</text>
+                <text type="uv_alert">Sun protection 9:20am to 3:00pm, UV Index predicted to reach 6 [High]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2018-09-28T00:00:00+10:00" end-time-local="2018-09-29T00:00:00+10:00" start-time-utc="2018-09-27T14:00:00Z" end-time-utc="2018-09-28T14:00:00Z">
+                <text type="forecast">Cloudy. High (70%) chance of showers, most likely from the late morning. Winds northwesterly 15 to 20 km/h shifting southerly 20 to 30 km/h in the early afternoon then decreasing to 15 to 20 km/h in the late afternoon.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2018-09-29T00:00:00+10:00" end-time-local="2018-09-30T00:00:00+10:00" start-time-utc="2018-09-28T14:00:00Z" end-time-utc="2018-09-29T14:00:00Z">
+                <text type="forecast">Cloudy. Medium (40%) chance of showers, chiefly in the morning. The risk of thunder and hail in the southeast suburbs in the morning. Winds westerly 15 to 20 km/h tending southwesterly during the morning then becoming light during the late afternoon.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2018-09-30T00:00:00+10:00" end-time-local="2018-10-01T00:00:00+10:00" start-time-utc="2018-09-29T14:00:00Z" end-time-utc="2018-09-30T14:00:00Z">
+                <text type="forecast">Partly cloudy. Slight (20%) chance of showers. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2018-10-01T00:00:00+10:00" end-time-local="2018-10-02T00:00:00+10:00" start-time-utc="2018-09-30T14:00:00Z" end-time-utc="2018-10-01T14:00:00Z">
+                <text type="forecast">Areas of morning frost in outer suburbs. Mostly sunny. Light winds becoming southerly 15 to 20 km/h during the day.</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2018-10-02T00:00:00+10:00" end-time-local="2018-10-03T00:00:00+10:00" start-time-utc="2018-10-01T14:00:00Z" end-time-utc="2018-10-02T14:00:00Z">
+                <text type="forecast">Cloudy. Light winds.</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2018-10-03T00:00:00+10:00" end-time-local="2018-10-04T00:00:00+10:00" start-time-utc="2018-10-02T14:00:00Z" end-time-utc="2018-10-03T14:00:00Z">
+                <text type="forecast">Partly cloudy. Slight (30%) chance of showers. Winds north to northeasterly 15 to 20 km/h tending north to northwesterly 25 to 35 km/h during the morning.</text>
+            </forecast-period>
+        </area>
+        <area aac="VIC_ME002" description="Geelong and Surf Coast" type="metropolitan" parent-aac="VIC_FA001">
+            <forecast-period index="0" start-time-local="2018-09-27T00:00:00+10:00" end-time-local="2018-09-28T00:00:00+10:00" start-time-utc="2018-09-26T14:00:00Z" end-time-utc="2018-09-27T14:00:00Z">
+                <text type="forecast">Sunny. Winds northwest to northeasterly 25 to 40 km/h shifting cooler west to southwesterly 25 to 35 km/h in the late afternoon then becoming light in the late evening.</text>
+                <text type="fire_danger">High</text>
+                <text type="uv_alert">Sun protection 9:30am to 2:50pm, UV Index predicted to reach 5 [Moderate]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2018-09-28T00:00:00+10:00" end-time-local="2018-09-29T00:00:00+10:00" start-time-utc="2018-09-27T14:00:00Z" end-time-utc="2018-09-28T14:00:00Z">
+                <text type="forecast">Cloudy. High (70%) chance of showers. Winds west to northwesterly 15 to 25 km/h turning southwesterly 25 to 40 km/h in the late morning then becoming light in the evening.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2018-09-29T00:00:00+10:00" end-time-local="2018-09-30T00:00:00+10:00" start-time-utc="2018-09-28T14:00:00Z" end-time-utc="2018-09-29T14:00:00Z">
+                <text type="forecast">Cloudy. Medium (40%) chance of showers. Winds west to southwesterly 15 to 25 km/h becoming light during the evening.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2018-09-30T00:00:00+10:00" end-time-local="2018-10-01T00:00:00+10:00" start-time-utc="2018-09-29T14:00:00Z" end-time-utc="2018-09-30T14:00:00Z">
+                <text type="forecast">Partly cloudy. Winds westerly 15 to 20 km/h shifting south to southeasterly during the afternoon then becoming light during the evening.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2018-10-01T00:00:00+10:00" end-time-local="2018-10-02T00:00:00+10:00" start-time-utc="2018-09-30T14:00:00Z" end-time-utc="2018-10-01T14:00:00Z">
+                <text type="forecast">Mostly sunny. Light winds becoming south to southeasterly 15 to 25 km/h during the early afternoon.</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2018-10-02T00:00:00+10:00" end-time-local="2018-10-03T00:00:00+10:00" start-time-utc="2018-10-01T14:00:00Z" end-time-utc="2018-10-02T14:00:00Z">
+                <text type="forecast">Cloudy. Light winds becoming southeasterly 15 to 20 km/h during the afternoon.</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2018-10-03T00:00:00+10:00" end-time-local="2018-10-04T00:00:00+10:00" start-time-utc="2018-10-02T14:00:00Z" end-time-utc="2018-10-03T14:00:00Z">
+                <text type="forecast">Partly cloudy. Slight (30%) chance of showers. Winds northerly 15 to 25 km/h tending southerly 15 to 20 km/h late in the day.</text>
+            </forecast-period>
+        </area>
+        <area aac="VIC_ME003" description="Mornington Peninsula" type="metropolitan" parent-aac="VIC_FA001">
+            <forecast-period index="0" start-time-local="2018-09-27T00:00:00+10:00" end-time-local="2018-09-28T00:00:00+10:00" start-time-utc="2018-09-26T14:00:00Z" end-time-utc="2018-09-27T14:00:00Z">
+                <text type="forecast">Sunny. Winds northerly 30 to 45 km/h shifting cooler south to southwesterly 25 to 40 km/h in the early afternoon then becoming light in the late evening.</text>
+                <text type="fire_danger">High</text>
+                <text type="uv_alert">Sun protection 9:30am to 2:50pm, UV Index predicted to reach 5 [Moderate]</text>
+            </forecast-period>
+            <forecast-period index="1" start-time-local="2018-09-28T00:00:00+10:00" end-time-local="2018-09-29T00:00:00+10:00" start-time-utc="2018-09-27T14:00:00Z" end-time-utc="2018-09-28T14:00:00Z">
+                <text type="forecast">Cloudy. High (70%) chance of showers. Winds west to northwesterly 20 to 30 km/h turning southwesterly 30 to 40 km/h in the early afternoon then decreasing to 15 to 20 km/h in the late afternoon.</text>
+            </forecast-period>
+            <forecast-period index="2" start-time-local="2018-09-29T00:00:00+10:00" end-time-local="2018-09-30T00:00:00+10:00" start-time-utc="2018-09-28T14:00:00Z" end-time-utc="2018-09-29T14:00:00Z">
+                <text type="forecast">Partly cloudy. Medium (60%) chance of showers, chiefly in the morning. The risk of thunder and hail in the morning. Winds southwesterly 20 to 30 km/h tending westerly during the afternoon.</text>
+            </forecast-period>
+            <forecast-period index="3" start-time-local="2018-09-30T00:00:00+10:00" end-time-local="2018-10-01T00:00:00+10:00" start-time-utc="2018-09-29T14:00:00Z" end-time-utc="2018-09-30T14:00:00Z">
+                <text type="forecast">Partly cloudy. Slight (20%) chance of showers. Winds west to northwesterly 15 to 20 km/h tending west to southwesterly during the morning then becoming light during the evening.</text>
+            </forecast-period>
+            <forecast-period index="4" start-time-local="2018-10-01T00:00:00+10:00" end-time-local="2018-10-02T00:00:00+10:00" start-time-utc="2018-09-30T14:00:00Z" end-time-utc="2018-10-01T14:00:00Z">
+                <text type="forecast">Mostly sunny. Light winds becoming south to southeasterly 15 to 20 km/h during the day.</text>
+            </forecast-period>
+            <forecast-period index="5" start-time-local="2018-10-02T00:00:00+10:00" end-time-local="2018-10-03T00:00:00+10:00" start-time-utc="2018-10-01T14:00:00Z" end-time-utc="2018-10-02T14:00:00Z">
+                <text type="forecast">Cloudy. Light winds becoming east to southeasterly 15 to 25 km/h during the day.</text>
+            </forecast-period>
+            <forecast-period index="6" start-time-local="2018-10-03T00:00:00+10:00" end-time-local="2018-10-04T00:00:00+10:00" start-time-utc="2018-10-02T14:00:00Z" end-time-utc="2018-10-03T14:00:00Z">
+                <text type="forecast">Partly cloudy. Slight (30%) chance of showers. Winds northerly 20 to 30 km/h tending southerly 15 to 25 km/h later in the day.</text>
+            </forecast-period>
+        </area>
+    </forecast>
+</product>

@@ -1,0 +1,29 @@
+<div class="row">
+  <div class="col-sm" align="right">
+    <div class="card mb-3" routerLink="/add" [ngClass]="{'add-card-dark': darkModeActive}">
+      <div class="card-header" align="center">
+        <span class="card-title">Add city</span>
+      </div>
+      <div class="card-body" align="center">
+        <div class="expanding-circle">
+          <i class="fas fa-plus fa-5x"></i>
+        </div>
+        <div class="illustration">
+          <i class="fas fa-city fa-7x"></i>
+          <i class="fas fa-building fa-7x"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm" align="left">
+    <div class="card mb-3" [ngClass]="{'card-dark': darkModeActive}">
+      <div class="card-header" align="center">
+        <span class="card-title">Quick forecast</span>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Warning card title</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,21 +1,52 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<!-- Side menu -->
+<aside class="side-menu__container" [ngClass]="{'side-menu__container-active': showMenu}" (click)="toggleMenu()">
+  <nav class="slide-menu" [ngClass]="{'slide-menu-active': showMenu}" (click)="$event.stopImmediatePropagation();">
+    <section class="menu-header">
+      <span class="greeting__text">Welcome Back</span>
+      <div class="profile-image__container">
+        <img src="https://avatars3.githubusercontent.com/u/5658460?s=460&v=4" alt="profile-image"
+             class="profile__image">
+      </div>
+      <div class="account-details">
+        <span class="name__text">Hamed Baatour</span>
+        <span class="email__text">hamedbaatour@gmail.com</span>
+      </div>
+    </section>
+    <section class="menu-body">
 
-<router-outlet></router-outlet>
+    </section>
+    <section class="menu-footer">
+    </section>
+  </nav>
+</aside>
+
+
+<nav class="navbar" [ngClass]="{'header-dark': darkModeActive}">
+  <div class="navbar-header">
+    <a (click)="toggleMenu()" class="fas fa-bars fa-2x hamburger"></a>
+  </div>
+
+  <svg class="logo__icon" viewBox="150.3 22.2 213.7 42.8">
+    <path fill="#00ff9b" d="M150.3 65V22.2L193 65z" data-name="Path 1"/>
+    <path fill="#003eff" d="M193.1 65h-42.8L193 22.2z" data-name="Path 2"/>
+    <text [ngClass]="{'logo__text-dark': darkModeActive}" class="logo__text" fill="#432c85"
+          font-family="SegoeUI-Semibold,Segoe UI" font-size="30" font-weight="600"
+          letter-spacing=".1em" transform="translate(237 56)">
+      <tspan x="0" y="0">Maxims</tspan>
+    </text>
+  </svg>
+
+  <div class="navbar-expand mr-auto"></div>
+	<input (click)="modeToggleSwitch()" type="checkbox" id="dn" class="dn">
+	<label for="dn" class="toggle"><span class="toggle-handler"></span></label>
+</nav>
+
+  <!-- Main Content -->
+
+  <!--<router-outlet></router-outlet>-->
+  <main class="container-fluid">
+    <div class="main-bg" [ngClass]="{'main-bg-dark': darkModeActive}"></div>
+    <router-outlet></router-outlet>
+  </main>
+
+  <!-- Footer -->
