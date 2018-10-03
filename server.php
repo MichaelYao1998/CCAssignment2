@@ -5,7 +5,7 @@ $username="";
 $errors = array();
 
 //connect to mysql database
-$db=mysqli_connect("localhost", "root", "MFys980304", "registration");
+$db=mysqli_connect(null,'root', 'MFys980304','registration',null,'/cloudsql/s3548974-cc2018:australia-southeast1:cloud');
 
 //Register USER
 if(isset($_POST['reg_user'])){
