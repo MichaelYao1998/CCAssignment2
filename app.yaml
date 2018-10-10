@@ -1,0 +1,25 @@
+runtime: php
+env: flex
+
+runtime_config:
+  document_root: public
+
+# local development files
+skip_files:
+  - .env
+
+env_variables:
+  # Put production environment variables here.
+  APP_LOG: errorlog
+  APP_KEY: base64:Ii4JRnFYGOFzYyTMQbR0oVKwnku3U08HAwfkKn3Lqhw=
+  STORAGE_DIR: /tmp
+  CACHE_DRIVER: database
+  SESSION_DRIVER: database
+  DB_HOST: localhost
+  DB_DATABASE: laravel
+  DB_USERNAME: root
+  DB_PASSWORD: MFys980304
+  DB_SOCKET: "/cloudsql/s3548974-cc2018:australia-southeast1:cloud"
+  APP_DEBUG: true
+beta_settings:
+  cloud_sql_instances: "s3548974-cc2018:australia-southeast1:cloud"
