@@ -1,0 +1,42 @@
+<div class="row">
+  <div class="col-sm" align="center">
+    <div class="card-main mb-3" [ngClass]="{'card-dark': darkModeActive}">
+      <div class="card-header" align="center">
+        <span class="card-title">Forecast for {{getName()}}</span>
+      </div>
+      <div class="card-body">
+        <div class="container">
+          <div class="row mb-3">
+            <div class="col weather-item mr-3">
+              <h5> Rest of {{weekdays[0]}} </h5>
+              <img class="img-responsive" src={{icons[5]}}>
+            </div>
+            <div class="col weather-item mr-3">
+              <h5> {{weekdays[1]}} </h5>
+            </div>
+            <div class="col weather-item mr-3">
+              <h5> {{weekdays[2]}} </h5>
+            </div>
+            <div class="col weather-item mr-3">
+              <h5> {{weekdays[3]}} </h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col weather-item mr-3">
+              <h5> {{weekdays[4]}} </h5>
+            </div>
+            <div class="col weather-item mr-3">
+              <h5> {{weekdays[5]}} </h5>
+            </div>
+            <div class="col weather-item mr-3">
+              <h5> {{weekdays[6]}} </h5>
+            </div>
+            <div class="col weather-item mr-3">
+              <h5> {{weekdays[0]}} </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

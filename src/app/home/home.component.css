@@ -15,6 +15,11 @@
   color: #443282;
 }
 
+.scroll {
+    max-height: 25rem;
+    overflow-y: scroll;   
+}
+
 .add-card-dark {
   background: linear-gradient(to bottom, #711B86, #00057A);
   color: white;

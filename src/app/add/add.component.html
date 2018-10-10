@@ -1,3 +1,36 @@
-<p>
-  add works!
-</p>
+<div class="row">
+  <div class="col-sm" align="center">
+    <div class="card-main mb-3" routerLink="/add" [ngClass]="{'card-dark': darkModeActive}">
+      <div class="card-header" align="center">
+        <span class="card-title">Add city</span>
+      </div>
+      <div class="card-body" align="center">
+          <form [formGroup]="addLocationForm">
+            <input class="form-control" id="myInput" type="text" placeholder="e.g. VIC, Melbourne" formControlName="locationName">
+            <br>
+            <div class="scroll">
+            <table class="table table-bordered table-striped">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>State</th>
+                  <th>Add</th>
+                </tr>
+              </thead>
+              <tbody id="myTable">
+                <tr *ngFor="let location of locations | locationsFilter: f.locationName.value">
+                  <td>{{location.name}}</td>
+                  <td>{{location.state}}</td>
+                  <td class="text-right">
+                    <button *ngIf="!hasPref(location.id) > -1" type="button" class="btn btn-dark" (click)="add(location.id)">Add</button>
+                    <button *ngIf="hasPref(location.id) > -1" type="button" class="btn btn-danger" (click)="remove(location.id)">Remove</button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            </div>
+          </form>
+      </div>
+    </div>
+  </div>
+</div>

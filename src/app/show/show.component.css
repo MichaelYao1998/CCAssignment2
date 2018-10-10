@@ -21,3 +21,15 @@
     background: linear-gradient(to bottom, #711B86, #00057A);
     color: white;
 }
+
+.list-inline-item {
+    padding: 65px;
+    padding-bottom: 180px;
+    background-color: #fff2de;
+}
+
+.weather-item {
+    width: 150px;
+    height: 270px;
+    background-color: #fff2de;
+}

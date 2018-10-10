@@ -1,5 +1,9 @@
 import { Component, OnInit } from '@angular/core';
+
 import { UiService } from './services/ui.service';
+import { AuthService } from './services/auth.service';
+import { HttpClient } from '@angular/common/http';
+import { User } from './models/user';
 
 @Component({
   selector: 'app-root',
@@ -10,7 +14,11 @@ export class AppComponent implements OnInit {
   showMenu = false;
   darkModeActive: boolean;
 
-  constructor(public ui: UiService) {}
+  constructor(
+    public ui: UiService,
+    public auth: AuthService,
+    public http: HttpClient
+  ) {}
 
   ngOnInit() {
     this.ui.darkModeState.subscribe((value) => {
@@ -25,4 +33,5 @@ export class AppComponent implements OnInit {
   modeToggleSwitch() {
     this.ui.darkModeState.next(!this.darkModeActive);
   }
+
 }

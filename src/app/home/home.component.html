@@ -20,9 +20,14 @@
       <div class="card-header" align="center">
         <span class="card-title">Quick forecast</span>
       </div>
-      <div class="card-body">
-        <h5 class="card-title">Warning card title</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <div class="card-body scroll">
+        <table class="table table-bordered table-striped">
+          <tbody id="myTable">
+            <tr *ngFor="let location of locations">
+              <td><a href="/show/{{location.id}}">{{location.name}}</a></td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
   </div>
