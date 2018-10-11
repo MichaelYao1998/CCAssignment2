@@ -6,23 +6,10 @@ use Illuminate\Support\Facades\Storage;
 
 class BomService {
 
-    private $server;
-
-    public function __construct() {
-        $this->server = Storage::createFtpDriver([
-          'host' => 'ftp.bom.gov.au',
-          'username' => 'anonymous',
-          'password' => 'guest',
-          'port' => 21,
-          'timeout' => '10',
-        ]);
-    }
-
-    
     public function getXML($target) {
-        $forecasts = 'anon/gen/fwo/';
+        $forecasts = 'ftp://ftp.bom.gov.au/anon/gen/fwo';
         $url = $forecasts . $target;
-        $data = $this->server->get($url);
+        $data = file_get_contents($url);
         return $data;
     }
 }
