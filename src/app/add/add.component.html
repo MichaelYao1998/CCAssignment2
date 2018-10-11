@@ -22,8 +22,8 @@
                   <td>{{location.name}}</td>
                   <td>{{location.state}}</td>
                   <td class="text-right">
-                    <button *ngIf="!hasPref(location.id) > -1" type="button" class="btn btn-dark" (click)="add(location.id)">Add</button>
-                    <button *ngIf="hasPref(location.id) > -1" type="button" class="btn btn-danger" (click)="remove(location.id)">Remove</button>
+                    <button *ngIf="!hasPref(location.id)" type="button" class="btn btn-dark" (click)="add(location.id)">Add</button>
+                    <button *ngIf="hasPref(location.id)" type="button" class="btn btn-danger" (click)="remove(getPref(location.id))">Remove</button>
                   </td>
                 </tr>
               </tbody>

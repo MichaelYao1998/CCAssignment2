@@ -44,10 +44,12 @@ export class AddComponent implements OnInit {
             }
             return 0;
           });
+          console.log(this.locations);
       });
 
       this.pref.getPreferences(this.uid).subscribe((res) => {
         this.preferences = res as Preference[];
+        console.log(this.preferences);
       });
 
       this.ui.darkModeState.subscribe((value) => {
@@ -58,15 +60,20 @@ export class AddComponent implements OnInit {
   get f() { return this.addLocationForm.controls; }
 
   add(lid: string) {
-    const req: Preference = { user_id: this.uid, area_id: lid };
+    const req: Preference = { id: '', user_id: this.uid, area_id: lid };
     this.pref.addPreference(req).subscribe((data) => {
       this.preferences.push(data as Preference);
     });
   }
 
   remove(lid: string) {
-    this.pref.delPreference(lid).subscribe((data) => {
-      this.preferences.splice(this.hasPref(lid), 1);
+    this.pref.delPreference(lid).subscribe((res) => {
+      for (let i = this.preferences.length - 1; i >= 0; --i) {
+        if (this.preferences[i].id === lid) {
+          console.log(res);
+          this.preferences.splice(i, 1);
+        }
+      }
     });
   }
 
@@ -76,7 +83,15 @@ export class AddComponent implements OnInit {
     }
     return this.preferences.findIndex((pref) => {
       return pref.area_id === area_id;
-    });
-}
+    }) > -1;
+  }
+
+  getPref(area_id) {
+      for (let i = this.preferences.length - 1; i >= 0; --i) {
+        if (this.preferences[i].area_id === area_id) {
+          return this.preferences[i].id;
+        }
+      }
+  }
 
 }

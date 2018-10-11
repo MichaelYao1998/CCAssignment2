@@ -1,25 +1,4 @@
 <!-- Side menu -->
-<aside class="side-menu__container" [ngClass]="{'side-menu__container-active': showMenu}" (click)="toggleMenu()">
-  <nav class="slide-menu" [ngClass]="{'slide-menu-active': showMenu}" (click)="$event.stopImmediatePropagation();">
-    <section class="menu-header">
-      <span class="greeting__text">Welcome Back</span>
-      <div class="profile-image__container">
-        <img src="https://avatars3.githubusercontent.com/u/5658460?s=460&v=4" alt="profile-image"
-             class="profile__image">
-      </div>
-      <div class="account-details">
-        <span class="name__text">user.name</span>
-        <span class="email__text">hamedbaatour@gmail.com</span>
-      </div>
-    </section>
-    <section class="menu-body">
-
-    </section>
-    <section class="menu-footer">
-    </section>
-  </nav>
-</aside>
-
 
 <nav class="navbar" [ngClass]="{'header-dark': darkModeActive}">
   <div class="navbar-header">
@@ -27,15 +6,15 @@
   </div>
 
   <svg class="logo__icon" viewBox="150.3 22.2 213.7 42.8">
-    <path fill="#00ff9b" d="M150.3 65V22.2L193 65z" data-name="Path 1"/>
-    <path fill="#003eff" d="M193.1 65h-42.8L193 22.2z" data-name="Path 2"/>
+    <path fill="#DC143C" d="M150.3 65V22.2L193 65z" data-name="Path 1"/>
+    <path fill="#070807" d="M193.1 65h-42.8L193 22.2z" data-name="Path 2"/>
     <text [ngClass]="{'logo__text-dark': darkModeActive}" class="logo__text" fill="#432c85"
           font-family="SegoeUI-Semibold,Segoe UI" font-size="30" font-weight="600"
           letter-spacing=".1em" transform="translate(237 56)">
-      <tspan x="0" y="0">Magiv Weather</tspan>
     </text>
   </svg>
 
+    <h3>Magic Weather</h3>
   <div class="navbar-expand mr-auto"></div>
 	<input (click)="modeToggleSwitch()" type="checkbox" id="dn" class="dn">
 	<label for="dn" class="toggle"><span class="toggle-handler"></span></label>

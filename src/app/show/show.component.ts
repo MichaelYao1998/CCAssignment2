@@ -15,6 +15,7 @@ export class ShowComponent implements OnInit {
   forecasts: Forecast[];
   weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
   icons = [
+    '',
     'assets/sunny.png',
     'assets/clear.png',
     'assets/partly-cloudy.png',
@@ -51,15 +52,48 @@ export class ShowComponent implements OnInit {
            this.weekdays = this.weekdays.slice(today).concat(this.weekdays.slice(0, today));
         }
         console.log(this.weekdays);
-        /*  this.activeRoute.params.subscribe((params) => {
-      this.bom.getLocation(params.location).subscribe((data) => {
-        this.area = data as Location;
-        this.weatherman.getForecast(this.area.name).subscribe((res) => {
-          console.log(res);
-          this.forecasts = res as Forecast[];
+        this.activeRoute.params.subscribe((params) => {
+          this.bom.getLocation(params.location).subscribe((data) => {
+          this.area = data as Location;
+          this.weatherman.getForecast(this.area.name).subscribe((res) => {
+            console.log(res);
+            this.forecasts = res as Forecast[];
         });
       });
-    });*/
+    });
+  }
+
+  iconIndex(index) {
+    if (!this.forecasts) {
+      return;
+    }
+    return this.forecasts[index].forecast_icon_code;
+  }
+
+  precis(index) {
+    if (!this.forecasts) {
+      return;
+    }
+    return this.forecasts[index].precis;
+  }
+
+  temperature(index) {
+    if (!this.forecasts) {
+      return;
+    }
+    const min = this.forecasts[index].air_temperature_minimum;
+    const max = this.forecasts[index].air_temperature_maximum;
+    if (min) {
+      return `${min} - ${max}`;
+    }
+    return max;
+  }
+
+  precipitation(index) {
+    if (!this.forecasts) {
+      return;
+    }
+    return this.forecasts[index].probability_of_precipitation;
   }
 
   getName() {
