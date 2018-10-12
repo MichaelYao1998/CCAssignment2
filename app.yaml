@@ -4,6 +4,13 @@ env: flex
 runtime_config:
   document_root: public
 
+handlers:
+- url: /
+  static_files: dist/index.html
+  upload: dist/index.html
+- url: /
+  static_dir: dist
+
 # local development files
 skip_files:
   - .env
